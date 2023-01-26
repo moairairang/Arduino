@@ -47,7 +47,7 @@ void loop() {
     digitalWrite(LED[3],HIGH);
   }
   else if(light == 4){
-    digitalWrite(LED[0],HIGH);
+    digitalWrite(LED[0],HIGHค);
     digitalWrite(LED[1],HIGH);
     digitalWrite(LED[2],HIGH);
     digitalWrite(LED[3],HIGH);
