@@ -6,13 +6,13 @@ void setup()
   Serial.begin(9600);
   Serial.println();
   Serial.println("Status\tHumidity (%)\tTemperature (C)\t(F)");
-  dht.setup(2); // data pin 2
+  dht.setup(2); 
 
 }
 
 void loop() {
-  float humidity = dht.getHumidity(); // ดึงค่าความชื้น
-  float temperature = dht.getTemperature(); // ดึงค่าอุณหภูมิ
+  float humidity = dht.getHumidity(); 
+  float temperature = dht.getTemperature(); 
 
   Serial.print(dht.getStatusString());
   Serial.print("\t");
